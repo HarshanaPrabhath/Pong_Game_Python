@@ -8,7 +8,6 @@ class Paddle(Turtle):
         self.shape("square")
         self.fillcolor("white")
         self.speed("fastest")
-        self.resizemode("auto")
         self.shapesize(stretch_len=1, stretch_wid=5)
         self.goto(position)
 
